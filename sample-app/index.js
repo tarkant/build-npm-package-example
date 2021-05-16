@@ -1,3 +1,4 @@
-const myModule = require('@tarkant/my-awesome-package')
+/// <reference types="@tarkant/my-awesome-package" />
+import MyAwesomePackage from '@tarkant/my-awesome-package';
 
-myModule.PrintName('Hashnode');
+MyAwesomePackage.PrintName('Hashnode');
