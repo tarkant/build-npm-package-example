@@ -1,3 +1,3 @@
-exports.PrintName = function(name) {
-    console.log('Hello ' + name + ' 😁');
+export const PrintName = (name) => {
+    console.log('Hello ' + name + ' 🎉');
 };
