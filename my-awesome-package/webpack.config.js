@@ -5,7 +5,7 @@ const PACKAGE_NAME = 'MyAwesomePackage';
 const config = {
   context: __dirname,
   entry: {
-    app: './src/index.js',
+    app: './src/index.ts',
   },
   output: {
     filename: 'main.js',
