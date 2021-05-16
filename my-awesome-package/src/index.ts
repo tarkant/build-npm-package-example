@@ -1,3 +1,3 @@
-export const PrintName = (name) => {
+export const PrintName = (name: string): void => {
     console.log('Hello ' + name + ' 🎉');
 };
